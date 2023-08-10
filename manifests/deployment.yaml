@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: app-demo
-          image: hrittik/test-tester:latest
+          image: jelenakajandere/test-tester:latest
           ports:
            - containerPort: 5000
           env:
